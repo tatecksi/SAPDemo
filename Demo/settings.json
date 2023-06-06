@@ -1,5 +1,5 @@
 {
-"Base":"https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/SAP/Demo/",
+"Base":"https://raw.githubusercontent.com/tatecksi/SAPDemo/main/Demo/",
 "Scenarios":[
 	"100-User_Logins_Over_Time",
 	"101-User_Password_Changes",
