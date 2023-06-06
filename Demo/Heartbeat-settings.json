@@ -1,0 +1,6 @@
+{
+"Base":"https://raw.githubusercontent.com/tatecksi/SAPDemo/main/Demo/",
+"Scenarios":[
+	"9-Agent_Heartbeat"	
+	]
+}
