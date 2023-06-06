@@ -1,7 +1,7 @@
 {
 	"Message":"Multiple User Logons by User",
 	"ID":"102",
-	"RunCount":"200",
+	"RunCount":"50",
 	"Replacements":
 	[
 		{
