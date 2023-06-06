@@ -2,7 +2,13 @@
 	"Message":"Agent heartbeat",
 	"ID":"100",
 	"RunCount":"1",
-	"Replacements":"",
+	"Replacements":[
+		{
+			"ReplacementName":"SourceIP",
+			"ReplacementValueScriptBlock":"[IPAddress]::Parse([String] (Get-Random)).IPAddressToString",
+			"ReplacementValue":""
+		}
+	],
 	"Files":[
 		"SAP_HeartBeat.01"
 	]
