@@ -4,7 +4,7 @@
 	"RunCount":"1",
 	"Replacements":[		
 	{
-        "ReplacementName":"TimeGenerated30m",
+        "ReplacementName":"TimeGeneratedTEST",
         "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1800).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     	}
