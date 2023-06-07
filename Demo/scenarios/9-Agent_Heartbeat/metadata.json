@@ -5,7 +5,7 @@
 	"Replacements":[		
 	{
         "ReplacementName":"TimeGeneratedTEST",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1800).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1800)",
         "ReplacementValue":""
     	}
 	],
