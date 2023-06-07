@@ -4,10 +4,10 @@
 	"RunCount":"1",
 	"Replacements":[		
 	{
-        	"ReplacementName":"TimeGeneratedTEST2",
-        	"ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-300*(Get-Random(60))).ToString(\"YYYY-MM-DDThh:mm:ssZ\")",
-        	"ReplacementValue":""
-    	}
+			"ReplacementName":"ServiceName",
+			"ReplacementValueScriptBlock":"@(\"PING\",\"INFO\",\"ES\") | Get-Random",
+			"ReplacementValue":""
+		}
 	],
 	"Files":[
 		"SAP_HeartBeat.1"
