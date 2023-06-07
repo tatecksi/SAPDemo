@@ -26,32 +26,32 @@
     },    
     {
         "ReplacementName":"TimeGenerated10m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-10).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-600).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     },
     {
         "ReplacementName":"TimeGenerated20m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-20).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1200).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     },
     {
         "ReplacementName":"TimeGenerated30m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-30).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1800).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     },
     {
         "ReplacementName":"TimeGenerated40m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-40).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-2400).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     },
     {
         "ReplacementName":"TimeGenerated50m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-50).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-3000).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     },
     {
         "ReplacementName":"TimeGenerated60m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-60).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-3600).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
     },
     {
