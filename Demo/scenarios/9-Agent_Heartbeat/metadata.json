@@ -12,7 +12,7 @@
 		"ReplacementName":"ChangeTime",
 		"ReplacementValueScriptBlock":"(Get-Date).AddSeconds(-300*(Get-Random(86400))).ToString(\"hhmmss\")",
 		"ReplacementValue":""
-	},	
+	}	
 	],
 	"Files":[
 		"SAP_HeartBeat.1"
