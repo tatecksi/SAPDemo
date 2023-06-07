@@ -25,6 +25,36 @@
         "ReplacementValue":""
     },    
     {
+        "ReplacementName":"TimeGenerated10m",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-10).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValue":""
+    },
+    {
+        "ReplacementName":"TimeGenerated20m",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-20).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValue":""
+    },
+    {
+        "ReplacementName":"TimeGenerated30m",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-30).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValue":""
+    },
+    {
+        "ReplacementName":"TimeGenerated40m",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-40).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValue":""
+    },
+    {
+        "ReplacementName":"TimeGenerated50m",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-50).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValue":""
+    },
+    {
+        "ReplacementName":"TimeGenerated60m",
+        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddMinutes(-60).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
+        "ReplacementValue":""
+    },
+    {
         "ReplacementName":"UserName",
         "ReplacementValueScriptBlock":"@(\"DEVELOPER\",\"1337HX0R\") | Get-Random",
         "ReplacementValue":""
