@@ -4,15 +4,10 @@
 	"RunCount":"1",
 	"Replacements":[		
 	{
-        	"ReplacementName":"TimeGeneratedTEST1",
-        	"ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1800)",
+        	"ReplacementName":"TimeGeneratedTEST2",
+        	"ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1*(Get-Random(7776000))).ToString("YYYY-MM-DDThh:mm:ssZ")",
         	"ReplacementValue":""
-    	},
-	{
-		"ReplacementName":"ChangeTime1",
-		"ReplacementValueScriptBlock":"(Get-Date).AddSeconds(-300*(Get-Random(86400))).ToString(\"hhmmss\")",
-		"ReplacementValue":""
-	}	
+    	}
 	],
 	"Files":[
 		"SAP_HeartBeat.1"
