@@ -35,11 +35,6 @@
         "ReplacementValue":""
     },
     {
-        "ReplacementName":"TimeGenerated30m",
-        "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-1800).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
-        "ReplacementValue":""
-    },
-    {
         "ReplacementName":"TimeGenerated40m",
         "ReplacementValueScriptBlock":"(Get-Date).ToUniversalTime().AddSeconds(-2400).ToString(\"yyyy-MM-ddTHH:mm:ssZ\")",
         "ReplacementValue":""
