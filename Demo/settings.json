@@ -3,6 +3,7 @@
 "Scenarios":[
 	"100-User_Logins_Over_Time",
 	"101-User_Password_Changes",
-	"102-User_Multiple_Logons_By_User"	
+	"102-User_Multiple_Logons_By_User",
+	"104-Deactivation_of_Security_Audit_Log"
 	]
 }
